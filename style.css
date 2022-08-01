@@ -59,13 +59,13 @@ a {
 
 .section-hero{
   /* background-color: red; */
-  height: 1000px;
+  height: 100vh;
 }
 
 .container-hero{
   display: flex;
   flex-direction: column;
- 
+  height: 100vh;
   
 }
 
