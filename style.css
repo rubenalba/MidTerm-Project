@@ -1,8 +1,14 @@
+
+*{
+  border: 1px solid red;
+}
+
 body {
   background-color: #f2f4fc;
   font-family: Roboto, sans-serif;
   /* border: 1px solid red; */
   min-width: 100%;
+ 
 }
 
 /* header */
@@ -59,6 +65,7 @@ a {
 .container-hero{
   display: flex;
   flex-direction: column;
+ 
   
 }
 
@@ -95,7 +102,14 @@ margin-left: 25px;
 margin-top: 30px;
 display: flex;
 justify-content: center;
+position: relative;
 
 }
+
+.image-hero img{
+  width: 100%;
+  height: 100%;
+}
+
 
 
