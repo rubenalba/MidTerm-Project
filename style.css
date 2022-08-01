@@ -8,14 +8,14 @@ body {
   font-family: Roboto, sans-serif;
   /* border: 1px solid red; */
   min-width: 100%;
- 
+
 }
 
 /* header */
 header{
   margin-left: 5%;
   margin-right: 5%;
- 
+
 }
 .nav-bar {
   display: flex;
@@ -59,14 +59,15 @@ a {
 
 .section-hero{
   /* background-color: red; */
-  height: 1000px;
+  /* height: 780px; */
+
 }
 
 .container-hero{
   display: flex;
   flex-direction: column;
- 
-  
+  height: 100%;
+
 }
 
 .hero-content{
@@ -99,10 +100,10 @@ margin-left: 25px;
 
 /* imagen central  */
 .image-hero{
-margin-top: 30px;
+/* margin-top: 30px; */
 display: flex;
 justify-content: center;
-position: relative;
+/* position: relative; */
 
 }
 
@@ -111,5 +112,10 @@ position: relative;
   height: 100%;
 }
 
+/* partners  */
 
+
+.parners-container{
+  background-color: red;
+}
 
