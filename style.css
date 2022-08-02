@@ -176,20 +176,18 @@ h2 {
 }
 
 .collection-list {
-  justify-items: stretch;
-  grid-auto-flow: row;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
+justify-items: stretch;
 }
 
 
 .project-text {
   display: flex;
   justify-content: space-between;
-}
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 
+}
 .project-title {
   margin: 30px 30px 20px;
   color: #292e47;
@@ -199,10 +197,7 @@ h2 {
 }
 
 .project-description {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-size: 17px;
-  font-weight: 400;
+  margin: 30px 30px 20px;
 }
 .project-link {
   margin: 30px;
@@ -215,5 +210,18 @@ h2 {
   .project-card {
     width: 100%;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 100%;
+    background-color: white
+  }
+  .item{
+    margin-bottom: 20px;
   }
 
