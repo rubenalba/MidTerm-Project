@@ -1,5 +1,4 @@
-
-*{
+* {
   border: 1px solid red;
 }
 
@@ -8,14 +7,12 @@ body {
   font-family: Roboto, sans-serif;
   /* border: 1px solid red; */
   min-width: 100%;
-
 }
 
 /* header */
-header{
+header {
   margin-left: 5%;
   margin-right: 5%;
-
 }
 .nav-bar {
   display: flex;
@@ -42,11 +39,10 @@ a {
   text-decoration: none;
 }
 
-.logo img{
+.logo img {
   width: 60px;
   height: 18px;
 }
-
 
 @media only screen and (max-width: 990px) {
   #enlaces {
@@ -54,63 +50,80 @@ a {
   }
 }
 
-
 /* centro */
 
-
-.container-hero{
+.container-hero {
   display: flex;
   flex-direction: column;
   height: 100%;
-
 }
 
-.hero-content{
-display: flex;
-flex-direction: column;
-align-items: center center;
-text-align: center;
-margin-right: 25px;
-margin-left: 25px;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center center;
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
-.hero-content h1{
+.hero-content h1 {
   font-size: 40px;
 }
 
-.text-block{
+.text-block {
   padding-bottom: 25px;
 }
 
-.button-hero{
+.button-hero {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.button-hero button{
+.button-hero button {
   margin-right: 25px;
 }
 
 /* imagen central  */
-.image-hero{
-/* margin-top: 30px; */
-display: flex;
-justify-content: center;
-/* position: relative; */
-
+.image-hero {
+  /* margin-top: 30px; */
+  display: flex;
+  align-items: flex-start;
+  /* position: relative; */
 }
 
-.image-hero img{
+.image-hero {
   width: 100%;
   height: 100%;
 }
 
-/* partners  */
-
-
-.parners-container{
-  background-color: red;
+.man {
+  width: 100%;
+  height: 100%;
+}
+.card {
+  position: absolute;
+  max-width: 375px;
 }
 
+.thrumb {
+  position: absolute;
+  max-width: 375px;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    display: none;
+  }
+  .thrumb {
+    display: none;
+  }
+}
+
+/* partners  */
+
+.parners-container {
+  background-color: red;
+}
