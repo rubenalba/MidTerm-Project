@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   /* border: 1px solid red; */
   min-width: 100%;
+  margin: 0;
 }
 
 /* HEADER */
@@ -225,3 +226,11 @@ justify-items: stretch;
     margin-bottom: 20px;
   }
 
+
+  /* TESTIMONIAL SECTION */
+
+  .testimonial-section{
+    background-color: #292e47;
+    background-image: url(https://uploads-ssl.webflow.com/61f7ff5…/61f800d…_Orbit.png);
+    
+  }
