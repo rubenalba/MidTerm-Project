@@ -48,8 +48,8 @@ a {
   #enlaces {
     display: none;
   }
-  .client-logo-amazon{
-   display: none;
+  .client-logo-amazon {
+    display: none;
   }
 }
 
@@ -93,7 +93,6 @@ a {
 .image-hero {
   display: flex;
   align-items: flex-start;
-
 }
 
 .image-hero {
@@ -124,15 +123,14 @@ a {
   }
 }
 
-
 /* PARTNERS  */
 
-.parners-section{
+.parners-section {
   width: 100%;
   height: 100%;
 }
 
-.partners-container{
+.partners-container {
   width: 100%;
   height: 100%;
   margin-top: 40px;
@@ -147,7 +145,7 @@ a {
   grid-column-gap: 50px;
 }
 
-.client-logo{
+.client-logo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -157,19 +155,65 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-  .client-logo-amazon{
-   
+  .client-logo-amazon {
   }
 }
 
 /* PROJECTS */
 
-.container-projects{
+.container-projects {
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
 }
-h2{
+h2 {
   font-size: 30px;
 }
+
+.projects{
+  margin-top: 20px;
+}
+
+.collection-list {
+  justify-items: stretch;
+  grid-auto-flow: row;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+
+.project-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  margin: 30px 30px 20px;
+  color: #292e47;
+  font-size: 24px;
+  line-height: 115%;
+  font-weight: 500;
+}
+
+.project-description {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.project-link {
+  margin: 30px;
+  color: #072ac8;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+  .project-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
