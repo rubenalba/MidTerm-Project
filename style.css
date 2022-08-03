@@ -437,3 +437,40 @@ text-align: center;
 
   color: white;
 }
+
+/* FOOTER */
+
+.section-footer{
+  padding-bottom: 100px;
+  margin-top: 60px;
+  background-color: red;
+  padding: 0 30px;
+}
+
+.container-footer{
+  background-color: aqua;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.footer-content-logo{
+  background-image: url("https://res.cloudinary.com/ironhacklab1/image/upload/v1659565990/samples/Logo_gwumrv.png");
+  width: 100px;
+  height: 30px;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+.footer-content-address{
+  text-align: center;
+}
