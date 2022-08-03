@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: Roboto, sans-serif;
 }
 
@@ -361,3 +361,41 @@ h2 {
     font-size: 17px;
     font-weight: 400;
 }
+
+
+/* PREGUNTAS */
+.section-cta{
+  background-color: #ffc600;
+  
+  height: 500px;
+}
+
+.container-cta{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua ;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cta-heading{
+  margin-bottom: 20px;
+  color: #292e47;
+}
+
+.form-block{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #072ac8;
+}
+
+.cta-form{
+  margin-top: 25px;
+  background-color: blueviolet;
+}
+
