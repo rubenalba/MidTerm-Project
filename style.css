@@ -165,7 +165,8 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-  .client-logo-amazon {}
+  .client-logo-amazon {
+  }
 }
 
 /* PROJECTS */
@@ -316,7 +317,6 @@ h2 {
 .service-content {
   display: flex;
   flex-direction: column;
-
 }
 
 .services-grid {
@@ -335,7 +335,6 @@ h2 {
   width: 100%;
   height: 100%;
 }
-
 
 .service-icon {
   background-image: url("https://res.cloudinary.com/ironhacklab1/image/upload/v1659522056/samples/ironHackLab1/Icon_ij0c3y.png");
@@ -361,7 +360,6 @@ h2 {
   font-weight: 400;
 }
 
-
 /* PREGUNTAS */
 .cta-section {
   background-color: #ffc600;
@@ -378,8 +376,6 @@ h2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-
 }
 
 .cta-heading {
@@ -411,7 +407,6 @@ h2 {
 .cta-textfield-wrapper {
   display: flex;
   align-items: center;
-
 }
 
 .textfield-icon {
@@ -444,7 +439,6 @@ h2 {
 .section-footer {
   padding-bottom: 100px;
   margin-top: 60px;
-  /* padding: 0 30px; */
 }
 
 .container-footer {
@@ -458,9 +452,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
-
 
 .footer-content-logo {
   background-image: url("https://res.cloudinary.com/ironhacklab1/image/upload/v1659565990/samples/Logo_gwumrv.png");
@@ -474,7 +466,6 @@ h2 {
   text-align: center;
 }
 
-
 .footer-links {
   display: grid;
   grid-auto-columns: 1fr;
@@ -482,4 +473,24 @@ h2 {
   grid-row-gap: 16px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 20px;
+}
+
+@media only screen and (min-width: 775px) {
+  .form-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cta-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+
+  .cta-btn{
+    margin-left: 20px;
+  }
 }
