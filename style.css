@@ -373,27 +373,27 @@ h2 {
   justify-content: center;
 }
 
-.cta-container{
-height: 80%;
-display: flex;
-justify-content: center;
-flex-direction: column;
+.cta-container {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
 
 }
 
-.cta-heading{
+.cta-heading {
   color: #292e47;
   margin-bottom: 20px;
   margin-top: 20px;
   line-height: 44px;
 }
 
-.cta-subtitle{
-text-align: center;
+.cta-subtitle {
+  text-align: center;
 }
 
-.form-block{
+.form-block {
   display: flex;
   justify-content: center;
   margin-top: 10%;
@@ -401,19 +401,20 @@ text-align: center;
   align-items: center;
 }
 
-.cta-form{
+.cta-form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.cta-textfield-wrapper{
+.cta-textfield-wrapper {
   display: flex;
   align-items: center;
 
 }
-.textfield-icon{
+
+.textfield-icon {
   background-image: url("https://res.cloudinary.com/ironhacklab1/image/upload/v1659561749/samples/mail_32x32_1x_1_m4vqeo.png");
   height: 30px;
   width: 30px;
@@ -424,12 +425,12 @@ text-align: center;
   margin-left: 30px;
 }
 
-.text-field{
+.text-field {
   height: 80px;
   padding-left: 70px;
 }
 
-.cta-btn{
+.cta-btn {
   height: 80px;
   width: 100%;
   padding-right: 60px;
@@ -440,30 +441,28 @@ text-align: center;
 
 /* FOOTER */
 
-.section-footer{
+.section-footer {
   padding-bottom: 100px;
   margin-top: 60px;
-  background-color: red;
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
 
-.container-footer{
-  background-color: aqua;
-display: flex;
-flex-direction: column;
-align-items: center;
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer-content{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
 
-.footer-content-logo{
+.footer-content-logo {
   background-image: url("https://res.cloudinary.com/ironhacklab1/image/upload/v1659565990/samples/Logo_gwumrv.png");
   width: 100px;
   height: 30px;
@@ -471,6 +470,16 @@ justify-content: center;
   margin-bottom: 30px;
 }
 
-.footer-content-address{
+.footer-content-address {
   text-align: center;
+}
+
+
+.footer-links {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
 }
