@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: Roboto, sans-serif;
 }
 
@@ -366,6 +366,7 @@ h2 {
 /* PREGUNTAS */
 .section-cta{
   background-color: #ffc600;
+  border: 1px solid red;
   
   height: 500px;
 }
@@ -376,14 +377,16 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aqua ;
   margin-left: 5%;
   margin-right: 5%;
+  border: 1px solid red;
 }
+
 
 .cta-heading{
   margin-bottom: 20px;
   color: #292e47;
+  border: 1px solid red;
 }
 
 .form-block{
@@ -391,11 +394,41 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #072ac8;
+  border: 1px solid red;
+
 }
 
 .cta-form{
-  margin-top: 25px;
-  background-color: blueviolet;
+  /* margin-top: 25px; */
 }
 
+#email-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+
+}
+
+.cta-form button{
+  height: 100%;
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid red;
+}
+
+.textfield-icon {
+  position: absolute;
+  left: 8%;
+  top: 27%;
+  right: auto;
+  bottom: auto;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://uploads-ssl.webflow.com/61f7ff5…/61f800b…_Mail.svg);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+}
