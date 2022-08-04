@@ -1,6 +1,5 @@
 /* Generales */
 * {
-  /* border: 1px solid black; */
   font-family: Roboto, sans-serif;
   font-size: 14px;
 }
@@ -32,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  background-color: #F2F4FC;
+  background-color: #f2f4fc;
 }
 
 label {
@@ -40,7 +39,6 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
-
 
 /* HEADER */
 
@@ -54,7 +52,7 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  width: 80%;
+  width: 100%;
 }
 
 #enlaces {
@@ -86,7 +84,6 @@ a {
 /* CLASES */
 /* FORM */
 
-
 .section-form {
   max-width: 1100px;
   width: 100%;
@@ -103,7 +100,6 @@ a {
   grid-row-gap: 16px;
   grid-template-rows: auto auto auto auto auto auto;
   max-width: 1100px;
-
 }
 
 .contact-title {
@@ -127,7 +123,6 @@ a {
   max-width: 1100px;
 }
 
-
 .w-input {
   width: 100%;
   margin-bottom: 10px;
@@ -137,8 +132,6 @@ a {
   vertical-align: middle;
   border: 1px solid #cccccc;
 }
-
-
 
 .contact-text-field.textarea {
   height: 200px;
@@ -153,7 +146,7 @@ a {
 .w-button {
   display: inline-block;
   /* padding: 9px 15px; */
-  background-color: #3898EC;
+  background-color: #3898ec;
   color: white;
   border: 0;
   line-height: inherit;
@@ -257,3 +250,72 @@ a {
 }
 
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 770px) {
+
+  body {
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-heading {
+    font-size: 45px;
+  }
+
+  #enlaces {
+    display: none;
+  }
+  .contact-form {
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto auto auto auto auto;
+    max-width: 1100px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #form {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+  }
+
+  #email {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+  }
+
+  #phone {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+  }
+
+  #message {
+    grid-row-start: span 3;
+    grid-row-end: span 3;
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+  }
+
+  #button-form {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+  }
+}
