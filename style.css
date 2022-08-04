@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  width: 100%;
+  width: 80%;
 }
 
 #enlaces {
@@ -439,6 +439,7 @@ h2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .cta-heading {
@@ -519,6 +520,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .footer-content-logo {
@@ -656,6 +658,10 @@ h2 {
   .testimonial-container{
     margin-right: 0px;
     margin-left: 0px;
+  }
+
+  body{
+    margin-top: 50px;
   }
 }
 
