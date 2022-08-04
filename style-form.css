@@ -116,7 +116,7 @@ background-color: aquamarine;
 }
 
 
-#w-node-bfdda202-5d54-281b-d06a-d901a49bd6cb-de7c8cbd {
+#form {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -127,7 +127,7 @@ background-color: aquamarine;
   grid-column-end: span 6;
 }
 
-#w-node-b9504eef-2c1d-6367-dd32-c97d4c079192-de7c8cbd {
+#email {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -138,7 +138,7 @@ background-color: aquamarine;
   grid-column-end: span 3;
 }
 
-#w-node-_03e05bf8-467c-4d5d-b389-ac3f5556a1f1-de7c8cbd {
+#phone {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -149,7 +149,7 @@ background-color: aquamarine;
   grid-column-end: span 3;
 }
 
-#w-node-bf283f64-c3ae-bf58-e318-d0f6fe3d3c14-de7c8cbd {
+#message {
   -ms-grid-row: span 3;
   grid-row-start: span 3;
   -ms-grid-row-span: 3;
@@ -160,7 +160,7 @@ background-color: aquamarine;
   grid-column-end: span 6;
 }
 
-#w-node-_7ef6a5ff-dd5a-3c91-9fea-e572de56b1f7-de7c8cbd {
+#button-form {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
