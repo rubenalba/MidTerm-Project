@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style-form.css">
+
+    <!-- Icono -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 </head>
 
 <body>
-   
     <header class="nav-bar">
         <div>
           <a class="logo" href="#">
@@ -18,13 +23,27 @@
               alt="logo" />
           </a>
         </div>
+        <div class="menu-burger">
+          <ul class="menu">
+            <li><a  class="menuItem" href="#">Home</a></li>
+            <li><a  class="menuItem" href="#">Projects</a></li>
+            <li><a  class="menuItem" href="#">Services</a></li>
+          </ul>
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+        </div>
+        
+
         <div id="enlaces">
           <a href="#Home">Home</a>
           <a href="#Projects">Projects</a>
           <a href="#Services">Services</a>
         </div>
         <div>
-          <button type="submit">Contact Us</button>
+          <button class="normal-btn"  type="submit">Contact Us</button>
         </div>
       </header>
 
@@ -99,7 +118,7 @@
           </div>
         </div>
       </div>
-
+      <script src="test.js"></script>
 </body>
 
 </html>
