@@ -3,7 +3,6 @@
 * {
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    /* border: 1px solid black; */
   }
 
 a {
@@ -76,6 +75,7 @@ header {
 }
 .project-image-wrapper{
   margin-top: 70px;
+  max-width: 1100px;
 }
 .section-project{
   margin-top: 70px;
@@ -303,7 +303,9 @@ header {
         align-items: center;
       }
      
-      
+      .container img{ 
+        width: 100%;
+      }
   #enlaces {
     display: none;
   }
