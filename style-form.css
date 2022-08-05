@@ -60,21 +60,7 @@ header {
   word-spacing: 20px;
 }
 
-button {
-  background-color: #072ac8;
-  color: white;
-  width: 7em;
-  height: 3em;
-  border: none;
-}
 
-button:hover {
-  background-color: #292e47;
-}
-
-a {
-  text-decoration: none;
-}
 
 .logo img {
   width: 60px;
