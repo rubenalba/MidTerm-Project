@@ -318,6 +318,10 @@ header {
       justify-content: space-around;
       padding-bottom: 50px;
     }
+    .project-completion {
+     
+      justify-content: space-evenly;
+  }
   
     .cta-form {
       display: flex;
