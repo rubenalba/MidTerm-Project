@@ -3,10 +3,17 @@
 * {
     font-family: Roboto, sans-serif;
     font-size: 14px;
+    /* border: 1px solid black; */
   }
 
 a {
   text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #292e47;
+    font-size: 40px;
+    line-height: 130%;
 }
 
 body {
