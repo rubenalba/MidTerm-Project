@@ -2,7 +2,6 @@
 * {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  border: 1px solid black;
 }
 
 h1,
@@ -264,7 +263,6 @@ header {
     align-content: stretch;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: red;
 }
   .container-footer {
     display: flex;
@@ -305,8 +303,8 @@ header {
     top: 2rem;
     right: 2rem;
     padding: 4px;
-    border: black solid 1px;
-    background: white;
+    /* border: black solid 1px; */
+    /* background: white; */
     cursor: pointer;
     }
 
@@ -324,10 +322,11 @@ header {
       right: 0;
       bottom: 0;
       z-index: 99;
-      background: black;
+      background: #C8C8C8;
       color: white;
       list-style: none;
       padding-top: 4rem;
+      min-width: 200px;
     }
 
     .showMenu {
