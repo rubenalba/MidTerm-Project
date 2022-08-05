@@ -34,19 +34,31 @@ body {
   background-color: #f2f4fc;
 }
 
+button {
+  background-color: #072ac8;
+  color: white;
+  width: 7em;
+  height: 3em;
+  border: none;
+}
+
+button:hover {
+  background-color: #292e47;
+}
+
 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-/* HEADER */
 
 header {
   margin-left: 5%;
   margin-right: 5%;
 }
 
+/* HEADER */
 .nav-bar {
   display: flex;
   justify-content: space-between;
