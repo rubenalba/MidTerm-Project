@@ -1,4 +1,6 @@
-document.getElementById("getJson").addEventListener("click", getJson);
+// document.getElementById("getJson").addEventListener("click", getJson);
+
+getJson();
 
 function getJson() {
    
@@ -17,9 +19,7 @@ function getJson() {
     </div> 
       `
       
-
-    
        document.getElementById("output").innerHTML = apiData;
     });
-    // console.log(apiData)
+   
 }
