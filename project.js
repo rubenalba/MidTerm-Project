@@ -1,6 +1,4 @@
-// document.getElementById("getJson").addEventListener("click", getJson);
-
-// getJson();
+getJson();
 
 function getJson() {
    
