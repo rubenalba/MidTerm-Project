@@ -10,7 +10,6 @@ a {
   text-decoration: none;
 }
 h1{
-    text-align: center;
     color: #292e47;
     font-size: 40px;
     line-height: 130%;
@@ -70,6 +69,34 @@ header {
     height: 18px;
   }
 
+/* TITLE */
+
+.project-page-title {
+  font-size: 60px;
+}
+.project-image-wrapper{
+  margin-top: 70px;
+}
+.section-project{
+  margin-top: 70px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.project-type-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-completion {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
 
 /* PROJECTS */
 
@@ -103,6 +130,7 @@ header {
   line-height: 115%;
   font-weight: 500;
 }
+
 
 .project-description {
   margin: 30px 30px 20px;
