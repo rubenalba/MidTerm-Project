@@ -16,8 +16,9 @@ function addPost(preventForm){
     .then((response) => response.json())
     .then((dataDeFormulario) => {
       console.log(dataDeFormulario);
+      body.value = "";
+      name.value ="";
       alert("Formulario enviado");
     });
-  body.value = "";
-  name.value ="";
+ 
 }
